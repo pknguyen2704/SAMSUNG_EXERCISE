@@ -1,0 +1,3 @@
+Thuật toán BFS (Breadth-First Search) theo mô hình đánh dấu khoảng cách từ nguồn của nó không đảm bảo cho kết quả là một thứ tự tô pô (topological order). Điều này xuất phát từ đặc tính của thứ tự tô pô và cách BFS hoạt động.
+
+Thứ tự tô pô của một đồ thị có hướng không có chu trình là một thứ tự sắp xếp tuyến tính của tất cả các đỉnh, sao cho nếu có một cạnh từ đỉnh u đến đỉnh v, thì đỉnh u xuất hiện trước đỉnh v trong thứ tự tô pô. Thứ tự tô pô chỉ tồn tại khi đồ thị không có chu trình.
